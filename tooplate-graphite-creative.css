@@ -19,15 +19,15 @@ html {
 
 body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	background-color: lightcoral;
-	color: beige;
+	background-color: tan;
+	color: black;
 	line-height: 1.6;
 }
 
 /* HEADER */
 header {
 	height: 140px;
-	background-color: lightcoral;
+	background-color: tan;
 	border-bottom: 1px solid black;
 	display: flex;
 	align-items: center;
@@ -53,7 +53,7 @@ header {
 	gap: 20px;
 	cursor: pointer;
 	text-decoration: none;
-	color: beige;
+	color: black;
 	transition: all 0.3s ease;
 }
 
@@ -70,7 +70,7 @@ header {
 	align-items: center;
 	justify-content: center;
 	font-weight: bold;
-	color: beige;
+	color: black;
 	font-size: 24px;
 }
 
@@ -82,7 +82,7 @@ header {
 
 .logo-text p {
 	font-size: 12px;
-	color: beige;
+	color: black;
 	margin-top: 4px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
@@ -100,13 +100,13 @@ nav a {
 	padding: 0 32px;
 	display: flex;
 	align-items: center;
-	background-color: lightcoral;
-	color: beige;
+	background-color: tan;
+	color: black;
 	text-decoration: none;
 	font-size: 15px;
 	font-weight: 600;
-	border-left: 2px solid lightcoral;
-	border-bottom: 2px solid lightcoral;
+	border-left: 2px solid tan;
+	border-bottom: 2px solid tan;
 	transition: all 0.3s ease;
 	position: relative;
 	overflow: hidden;
@@ -121,7 +121,7 @@ nav a::before {
 	left: 0;
 	width: 100%;
 	height: 0;
-	background-color: lightcoral;
+	background-color: tan;
 	transition: height 0.3s ease;
 	z-index: -1;
 }
@@ -150,7 +150,7 @@ nav a.active::before {
 .menu-toggle span {
 	width: 28px;
 	height: 3px;
-	background-color: lightcoral;
+	background-color: tan;
 	transition: all 0.3s ease;
 }
 
@@ -165,7 +165,7 @@ main {
 	display: flex;
 	align-items: center;
 	padding: 60px;
-	background-color: lightcoral;
+	background-color: tan;
 	position: relative;
 	overflow: hidden;
 }
@@ -187,7 +187,7 @@ main {
 .hero-line {
 	width: 100px;
 	height: 3px;
-	background: lightcoral;
+	background: tan;
 	margin: 0 0 30px 0;
 }
 
@@ -200,7 +200,7 @@ main {
 
 .hero-left p {
 	font-size: 18px;
-	color: lightcoral;
+	color: tan;
 	margin-bottom: 40px;
 	line-height: 1.8;
 }
@@ -208,14 +208,14 @@ main {
 .cta-button {
 	display: inline-block;
 	padding: 18px 50px;
-	background-color: lightcoral;
-	color: beige;
+	background-color: tan;
+	color: black;
 	text-decoration: none;
 	font-weight: 600;
 	font-size: 15px;
 	border: none;
-	border-left: 2px solid lightcoral;
-	border-bottom: 2px solid lightcoral;
+	border-left: 2px solid tan;
+	border-bottom: 2px solid tan;
 	transition: all 0.3s ease;
 	letter-spacing: 0.5px;
 	cursor: pointer;
@@ -231,7 +231,7 @@ main {
 	left: 0;
 	width: 100%;
 	height: 0;
-	background-color: lightcoral;
+	background-color: tan;
 	transition: height 0.3s ease;
 	z-index: -1;
 }
@@ -251,7 +251,7 @@ main {
 	height: 400px;
 	overflow: hidden;
 	border: 1px solid black;
-	background-color: lightcoral;
+	background-color: tan;
 	background-image: linear-gradient(135deg, #222 0%, #2a2a2a 100%);
 }
 
@@ -264,7 +264,7 @@ main {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: lightcoral;
+	background-color: tan;
 }
 
 .slide.active {
@@ -286,7 +286,7 @@ main {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	color: lightcoral;
+	color: tan;
 	font-size: 18px;
 	text-align: center;
 	opacity: 0;
@@ -327,14 +327,14 @@ main {
 }
 
 .dot.active {
-	background-color: lightcoral;
+	background-color: tan;
 	transform: scale(1.2);
 }
 
 /* Skills SECTION - REDESIGNED WITH NUMBERS */
 .skills-services {
 	padding: 120px 60px;
-	background-color: lightcoral;
+	background-color: tan;
 	border-top: 1px solid black;
 }
 
@@ -393,7 +393,7 @@ main {
 .skills-number {
 	font-size: 48px;
 	font-weight: 300;
-	color: beige;
+	color: black;
 	margin-bottom: 20px;
 	font-family: 'Courier New', monospace;
 	position: relative;
@@ -401,7 +401,7 @@ main {
 }
 
 .skills-card:hover .service-number {
-	color: beige;
+	color: black;
 }
 
 .skills-number::after {
@@ -411,7 +411,7 @@ main {
 	left: 0;
 	width: 100%;
 	height: 1px;
-	background: lightcoral;
+	background: tan;
 	transform: scaleX(0);
 	transition: transform 0.3s ease;
 }
@@ -427,7 +427,7 @@ main {
 }
 
 .skills-card p {
-	color: beige;
+	color: black;
 	font-size: 15px;
 	line-height: 1.8;
 }
@@ -517,7 +517,7 @@ main {
 /* ABOUT SECTION */
 .section-about {
     padding: 120px 60px;
-    background-color: lightcoral;
+    background-color: tan;
     border-top: 1px solid #2a2a2a;
 }
 
@@ -538,20 +538,20 @@ main {
 }
 
 .about-content p {
-    color: beige;
+    color: black;
     margin-bottom: 24px;
     line-height: 1.9;
     font-size: 15px;
 }
 
 .about-content p a {
-    color: beige;
+    color: black;
     text-decoration: underline;
     transition: color 0.3s ease;
 }
 
 .about-content p a:hover {
-    color: beige;
+    color: black;
 }
 
 .about-blocks {
@@ -562,7 +562,7 @@ main {
 
 .about-block {
     padding: 30px;
-    background-color: lightcoral;
+    background-color: tan;
     border-left: 4px solid black;
     border-top: 1px solid black;
     border-right: 1px solid black;
@@ -573,12 +573,12 @@ main {
     font-size: 16px;
     margin-bottom: 12px;
     font-weight: 700;
-    color: beige;
+    color: black;
 }
 
 .about-block p {
     font-size: 13px;
-    color: beige;
+    color: black;
     margin-bottom: 0;
 }
 
@@ -704,7 +704,7 @@ main {
 }
 
 .modal-content {
-	background-color: lightcoral;
+	background-color: tan;
 	border: 1px solid black;
 	max-width: 900px;
 	width: 90%;
@@ -735,11 +735,11 @@ main {
 	font-size: 28px;
 	margin-bottom: 8px;
 	font-weight: 700;
-	color: beige;
+	color: black;
 }
 
 .modal-details p#modalCategory {
-	color: beige;
+	color: black;
 	font-size: 14px;
 	font-weight: 600;
 	letter-spacing: 1px;
@@ -750,7 +750,7 @@ main {
 }
 
 .modal-details p#modalDescription {
-	color: beige;
+	color: black;
 	font-size: 15px;
 	line-height: 1.8;
 	margin-bottom: 20px;
@@ -763,7 +763,7 @@ main {
 }
 
 .modal-details li {
-	color: beige;
+	color: black;
 	font-size: 15px;
 	line-height: 1.8;
 	margin-bottom: 12px;
@@ -775,7 +775,7 @@ main {
 	content: '•';
 	position: absolute;
 	left: 0;
-	color: beige;
+	color: black;
 	font-size: 20px;
 	font-weight: bold;
 }
@@ -783,8 +783,8 @@ main {
 .modal-visit-btn {
 	display: inline-block;
 	padding: 14px 40px;
-	background-color: lightcoral;
-	color: beige;
+	background-color: tan;
+	color: black;
 	text-decoration: none;
 	font-weight: 600;
 	font-size: 14px;
@@ -807,13 +807,13 @@ main {
 	left: 0;
 	width: 100%;
 	height: 0;
-	background-color: lightcoral;
+	background-color: tan;
 	transition: height 0.3s ease;
 	z-index: -1;
 }
 
 .modal-visit-btn:hover {
-	color: beige;
+	color: black;
 }
 
 .modal-visit-btn:hover::before {
@@ -829,7 +829,7 @@ main {
 	height: 40px;
 	background: none;
 	border: none;
-	color: beige;
+	color: black;
 	font-size: 28px;
 	cursor: pointer;
 	transition: all 0.3s ease;
@@ -897,16 +897,16 @@ main {
 }
 
 .modal-content::-webkit-scrollbar-track {
-	background: lightcoral;
+	background: tan;
 }
 
 .modal-content::-webkit-scrollbar-thumb {
-	background: lightcoral;
+	background: tan;
 	border-radius: 3px;
 }
 
 .modal-content::-webkit-scrollbar-thumb:hover {
-	background: lightcoral;
+	background: tan;
 }
 
 @media (max-width: 768px) {
@@ -936,7 +936,7 @@ main {
 		top: 80px;
 		right: 20px;
 		left: auto;
-		background-color: lightcoral;
+		background-color: tan;
 		flex-direction: column;
 		padding: 20px;
 		gap: 10px;
@@ -957,16 +957,16 @@ main {
 	}
 
 	nav::-webkit-scrollbar-track {
-		background: lightcoral;
+		background: tan;
 	}
 
 	nav::-webkit-scrollbar-thumb {
-		background: lightcoral;
+		background: tan;
 		border-radius: 3px;
 	}
 
 	nav::-webkit-scrollbar-thumb:hover {
-		background: lightcoral;
+		background: tan;
 	}
 
 	nav a {
