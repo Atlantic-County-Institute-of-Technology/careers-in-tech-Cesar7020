@@ -19,7 +19,7 @@ html {
 
 body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	background-color: sienna;
+	background-color: lightcoral;
 	color: beige;
 	line-height: 1.6;
 }
@@ -27,7 +27,7 @@ body {
 /* HEADER */
 header {
 	height: 140px;
-	background-color: sienna;
+	background-color: lightcoral;
 	border-bottom: 1px solid black;
 	display: flex;
 	align-items: center;
@@ -100,13 +100,13 @@ nav a {
 	padding: 0 32px;
 	display: flex;
 	align-items: center;
-	background-color: sienna;
+	background-color: lightcoral;
 	color: beige;
 	text-decoration: none;
 	font-size: 15px;
 	font-weight: 600;
-	border-left: 2px solid sienna;
-	border-bottom: 2px solid sienna;
+	border-left: 2px solid lightcoral;
+	border-bottom: 2px solid lightcoral;
 	transition: all 0.3s ease;
 	position: relative;
 	overflow: hidden;
@@ -121,7 +121,7 @@ nav a::before {
 	left: 0;
 	width: 100%;
 	height: 0;
-	background-color: sienna;
+	background-color: lightcoral;
 	transition: height 0.3s ease;
 	z-index: -1;
 }
@@ -150,7 +150,7 @@ nav a.active::before {
 .menu-toggle span {
 	width: 28px;
 	height: 3px;
-	background-color: sienna;
+	background-color: lightcoral;
 	transition: all 0.3s ease;
 }
 
@@ -165,7 +165,7 @@ main {
 	display: flex;
 	align-items: center;
 	padding: 60px;
-	background-color: sienna;
+	background-color: lightcoral;
 	position: relative;
 	overflow: hidden;
 }
@@ -187,7 +187,7 @@ main {
 .hero-line {
 	width: 100px;
 	height: 3px;
-	background: sienna;
+	background: lightcoral;
 	margin: 0 0 30px 0;
 }
 
@@ -200,7 +200,7 @@ main {
 
 .hero-left p {
 	font-size: 18px;
-	color: sienna;
+	color: lightcoral;
 	margin-bottom: 40px;
 	line-height: 1.8;
 }
@@ -208,14 +208,14 @@ main {
 .cta-button {
 	display: inline-block;
 	padding: 18px 50px;
-	background-color: sienna;
+	background-color: lightcoral;
 	color: beige;
 	text-decoration: none;
 	font-weight: 600;
 	font-size: 15px;
 	border: none;
-	border-left: 2px solid sienna;
-	border-bottom: 2px solid sienna;
+	border-left: 2px solid lightcoral;
+	border-bottom: 2px solid lightcoral;
 	transition: all 0.3s ease;
 	letter-spacing: 0.5px;
 	cursor: pointer;
@@ -231,7 +231,7 @@ main {
 	left: 0;
 	width: 100%;
 	height: 0;
-	background-color: sienna;
+	background-color: lightcoral;
 	transition: height 0.3s ease;
 	z-index: -1;
 }
@@ -251,7 +251,7 @@ main {
 	height: 400px;
 	overflow: hidden;
 	border: 1px solid black;
-	background-color: sienna;
+	background-color: lightcoral;
 	background-image: linear-gradient(135deg, #222 0%, #2a2a2a 100%);
 }
 
@@ -264,7 +264,7 @@ main {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: sienna;
+	background-color: lightcoral;
 }
 
 .slide.active {
@@ -286,7 +286,7 @@ main {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	color: sienna;
+	color: lightcoral;
 	font-size: 18px;
 	text-align: center;
 	opacity: 0;
@@ -327,14 +327,14 @@ main {
 }
 
 .dot.active {
-	background-color: sienna;
+	background-color: lightcoral;
 	transform: scale(1.2);
 }
 
 /* Skills SECTION - REDESIGNED WITH NUMBERS */
 .skills-services {
 	padding: 120px 60px;
-	background-color: sienna;
+	background-color: lightcoral;
 	border-top: 1px solid black;
 }
 
@@ -411,7 +411,7 @@ main {
 	left: 0;
 	width: 100%;
 	height: 1px;
-	background: sienna;
+	background: lightcoral;
 	transform: scaleX(0);
 	transition: transform 0.3s ease;
 }
@@ -435,7 +435,7 @@ main {
 /* PORTFOLIO SECTION */
 .section-portfolio {
 	padding: 120px 60px;
-	background-color: black;
+	background-color: lightgrey;
 	border-top: 1px solid black;
 }
 
@@ -452,7 +452,7 @@ main {
 
 .portfolio-item {
 	aspect-ratio: 16/10;
-	background: sienna;
+	background: lightgrey;
 	border: 1px solid black;
 	overflow: hidden;
 	position: relative;
@@ -511,13 +511,13 @@ main {
 
 .portfolio-label p {
 	font-size: 13px;
-	color: #777;
+	color: beige;
 }
 
 /* ABOUT SECTION */
 .section-about {
     padding: 120px 60px;
-    background-color: sienna;
+    background-color: lightcoral;
     border-top: 1px solid #2a2a2a;
 }
 
@@ -562,7 +562,7 @@ main {
 
 .about-block {
     padding: 30px;
-    background-color: sienna;
+    background-color: lightcoral;
     border-left: 4px solid black;
     border-top: 1px solid black;
     border-right: 1px solid black;
@@ -704,7 +704,7 @@ main {
 }
 
 .modal-content {
-	background-color: sienna;
+	background-color: lightcoral;
 	border: 1px solid black;
 	max-width: 900px;
 	width: 90%;
@@ -783,7 +783,7 @@ main {
 .modal-visit-btn {
 	display: inline-block;
 	padding: 14px 40px;
-	background-color: sienna;
+	background-color: lightcoral;
 	color: beige;
 	text-decoration: none;
 	font-weight: 600;
@@ -807,7 +807,7 @@ main {
 	left: 0;
 	width: 100%;
 	height: 0;
-	background-color: sienna;
+	background-color: lightcoral;
 	transition: height 0.3s ease;
 	z-index: -1;
 }
@@ -897,16 +897,16 @@ main {
 }
 
 .modal-content::-webkit-scrollbar-track {
-	background: sienna;
+	background: lightcoral;
 }
 
 .modal-content::-webkit-scrollbar-thumb {
-	background: sienna;
+	background: lightcoral;
 	border-radius: 3px;
 }
 
 .modal-content::-webkit-scrollbar-thumb:hover {
-	background: sienna;
+	background: lightcoral;
 }
 
 @media (max-width: 768px) {
@@ -936,7 +936,7 @@ main {
 		top: 80px;
 		right: 20px;
 		left: auto;
-		background-color: sienna;
+		background-color: lightcoral;
 		flex-direction: column;
 		padding: 20px;
 		gap: 10px;
@@ -957,16 +957,16 @@ main {
 	}
 
 	nav::-webkit-scrollbar-track {
-		background: sienna;
+		background: lightcoral;
 	}
 
 	nav::-webkit-scrollbar-thumb {
-		background: sienna;
+		background: lightcoral;
 		border-radius: 3px;
 	}
 
 	nav::-webkit-scrollbar-thumb:hover {
-		background: sienna;
+		background: lightcoral;
 	}
 
 	nav a {
