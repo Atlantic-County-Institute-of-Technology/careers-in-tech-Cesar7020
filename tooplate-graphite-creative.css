@@ -359,7 +359,7 @@ main {
 
 .skills-card {
 	padding: 40px;
-	background-color: transparent;
+	background-color: grey;
 	border-right: 1px solid #2a2a2a;
 	border-bottom: 1px solid #2a2a2a;
 	transition: all 0.3s ease;
@@ -397,7 +397,7 @@ main {
 	margin-bottom: 20px;
 	font-family: 'Courier New', monospace;
 	position: relative;
-	display: inline-block;
+	display: grid;
 }
 
 .skills-card:hover .service-number {
